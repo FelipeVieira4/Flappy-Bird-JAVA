@@ -29,7 +29,7 @@ public class Render extends JPanel implements Runnable{
 		
 	}
 
-	//DESENHAR DESENHAR DO RENDER
+	//DESENHAR DO RENDER
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		game.render_draw(g);
