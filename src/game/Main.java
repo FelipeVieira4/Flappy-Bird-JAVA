@@ -17,12 +17,12 @@ public class Main {
 		//Configurar Janela
 		window.setTitle("Flappy Bird");
 		window.setResizable(false);
-		window.setVisible(true);
 		render_system.setFocusable(true);
 		
 		//Adicionar Render a Janela
 		window.add(render_system);
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		window.setVisible(true);
 	}
 
 }
